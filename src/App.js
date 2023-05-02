@@ -105,7 +105,7 @@ function addCartClick(event){
   const getId=event.target.id
   document.getElementById('cartval').innerHTML= +val +1
   document.getElementById(getId).disabled = true;
-  const data=document.getElementById("product_"+getId)
+  
   document.getElementById("product_"+getId).innerHTML +=`  <button id=removecart${getId}  onClick="removeCart(${getId})">Remove from cart</button>`
   
 }
