@@ -15,7 +15,7 @@ img {
   width: 300px;
   height: 200px;
 }
-#cart{
+/* #cart{
   position: fixed;
   top: 0;
   right: 10px;
@@ -58,8 +58,13 @@ transition: 0.3s;
   margin: 0 auto;
   
   
-}
+}*/
 
 .checked {
   color: orange;
+} 
+
+.rating{
+  display: flex;
+  justify-content: center;
 }
